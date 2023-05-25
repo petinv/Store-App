@@ -1,6 +1,6 @@
 
 -- База даних
-CREATE DATABASE demo_db;
+CREATE DATABASE minibasefortests;
 
 -- Таблиця
 CREATE TABLE IF NOT EXISTS products

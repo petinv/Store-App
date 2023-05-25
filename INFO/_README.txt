@@ -30,14 +30,14 @@ POST http://localhost:8080/api/products
 Налаштування в Postman: Body, raw, JSON.
 
 {
-	"productName": "broccoli",
+	"name": "broccoli",
 	"category": "vegetables",
 	"price": 2.95
 }
 
 
 {
-	"productName": "kiwi",
+	"name": "kiwi",
 	"category": "fruits",
 	"price": 3.05
 }
@@ -54,7 +54,7 @@ POST http://localhost:8080/api/products
 
 {
 	"id": 3,
-	"productName": "tomato",
+	"name": "tomato",
 	"category": "vegetables",
 	"price": 1.95
 }

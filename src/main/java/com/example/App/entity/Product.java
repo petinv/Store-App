@@ -20,7 +20,7 @@ public class Product {
     private int id;
 
     @Column(name = "name")
-    private String
+    private String name;
 
     @Column(name = "category")
     private String category;

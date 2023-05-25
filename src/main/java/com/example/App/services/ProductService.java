@@ -1,4 +1,4 @@
-package com.example.App.sevices;
+package com.example.App.services;
 
 
 import com.example.App.entity.Product;
@@ -38,7 +38,7 @@ public class ProductService {
         return new ArrayList<>(repository.findAll());
     }
 
-    public ResponseEntity<> getProductById(int id) {
+    public ResponseEntity<Product> getProductById(int id) {
         Optional<Product> product = repository.findById(id);
 
         return product.map(value ->
